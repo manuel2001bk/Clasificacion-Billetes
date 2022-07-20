@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Red neuronal</title>
+        <link href="https://fonts.googleapis.com/css?family=Grandstander&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mallanna&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesHomePage.css">
+    </head>
+    <header>
+        <div class="e2_3">
+            <span class="e2_7">Red neuronal para la identificación de billetes</span>
+        </div>
+    </header>
+    <body>
+        <div class="e2_4">
+            <span class="e2_14">Tomar una fotografia</span>
+            <video id="video" class="e2_9" playsinline autoplay></video>
+            <button id="snap" class="btnPhoto">Capture</button>
+            <canvas id="canvas" width="200" height="150"></canvas>
+        </div>
+        <div class="e2_12">
+            <h1 id="salida_billete"></h1>
+        </div>
+    </body>
+    <footer>
+        <div class="piePagina">
+            <span class="e2_18">Integrantes del equipo</span>
+            <span class="e2_19">201271. Magin Guillermo Albores Lopez</span>
+            <span class="e2_20">193236. Manuel Ballinas Kramsky</span>
+            <span class="e2_21">201259. Veronica Liseth Martinez Toledo</span>
+            <span class="e2_22">193218. Gerardo Vázquez Román</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script type="text/javascript" src="photo.js"></script>
+</html>
